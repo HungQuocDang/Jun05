@@ -3,5 +3,4 @@
 
 ## User Story
 
-WHEN a user searches for a movie by genre.
-They will see list of movies to choose from.
+
