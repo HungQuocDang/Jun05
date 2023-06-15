@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Movie Browser</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
@@ -9,7 +10,7 @@
   <p id="subtitleText">Search for a movie below!</p>
   <div class="search-container">
     <input type="text" id="search" placeholder="Search for a movie...">
-    <button onclick="searchMovies()">Search</button>
+    <button id="searchbutton">Search</button>
   </div>
   <div class="movie-container" id="movieContainer">
     <!-- Movies will be dynamically added here -->
